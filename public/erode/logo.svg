@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Erode Explorer">
+  <rect width="64" height="64" rx="16" fill="#0b4a52"/>
+  <rect x="11" y="10" width="8" height="44" rx="4" fill="#f2b01e"/>
+  <g fill="none" stroke="#f1fbf8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 15q5-6 10 0t10 0 10 0"/>
+    <path d="M26 32q5-6 10 0t10 0"/>
+    <path d="M26 49q5-6 10 0t10 0 10 0"/>
+  </g>
+</svg>

@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b4a52" />
+    <link rel="icon" href="logo.svg" type="image/svg+xml" />
+    <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <title>Erode Explore – Discover the Beauty of Erode</title>
+    <meta
+      name="description"
+      content="Discover 20 destinations in Erode, Tamil Nadu. Explore dams, wildlife, temples and local heritage, save favourites and plan your trip."
+    />
+    <meta property="og:title" content="Erode Explore – Discover the Beauty of Erode" />
+    <meta
+      property="og:description"
+      content="Find your next escape among Erode’s rivers, temples and timeless traditions."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Figtree:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Noto+Sans+Malayalam:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script>
+      try {
+        const theme = localStorage.getItem("erode-explore-theme-v1");
+        if (theme === "dark" || theme === "light") document.documentElement.dataset.theme = theme;
+      } catch {}
+      if (!new URLSearchParams(location.search).has("destination"))
+        document.documentElement.classList.add("erode-intro-active");
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="translations.js" defer></script>
+    <script src="hotels.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="effects.js" defer></script>
+  </head>
+  <body>
+    <div class="river-bg" aria-hidden="true">
+      <svg viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <g class="river-contours"><path d="M1339 250C1340 254 1338 259 1334 263C1331 267 1324 269 1319 272C1314 274 1309 276 1304 278C1299 279 1294 282 1289 282C1283 283 1277 283 1271 282C1266 281 1261 280 1255 278C1250 276 1245 274 1240 272C1236 269 1232 266 1230 262C1228 258 1228 254 1228 250C1228 246 1228 242 1229 238C1230 234 1232 229 1236 226C1240 223 1247 220 1253 219C1259 218 1266 219 1272 219C1278 219 1283 220 1288 220C1293 221 1299 222 1304 223C1309 224 1313 227 1318 229C1322 232 1327 234 1330 238C1334 241 1338 246 1339 250Z"/><path d="M1402 250C1403 259 1399 269 1392 277C1385 284 1371 289 1361 294C1351 300 1341 303 1330 307C1320 311 1309 316 1298 317C1287 319 1274 318 1262 317C1251 315 1240 311 1229 308C1218 304 1207 301 1198 295C1189 290 1181 282 1176 275C1172 267 1172 258 1172 250C1171 242 1171 233 1174 225C1177 216 1180 206 1189 200C1197 193 1211 188 1224 186C1236 184 1251 186 1263 186C1275 187 1285 187 1296 189C1308 190 1319 191 1330 194C1340 197 1350 201 1359 206C1369 212 1378 218 1385 225C1393 232 1401 241 1402 250Z"/><path d="M1470 250C1471 263 1463 280 1452 291C1441 302 1420 310 1404 318C1389 326 1374 333 1358 339C1342 345 1326 352 1308 354C1290 357 1270 356 1252 353C1234 351 1217 346 1201 340C1184 334 1166 329 1152 320C1139 312 1126 300 1119 288C1112 277 1112 263 1111 250C1111 237 1110 224 1115 211C1119 198 1125 182 1138 172C1151 162 1174 155 1193 151C1213 148 1235 151 1254 152C1272 153 1288 153 1306 155C1323 157 1341 158 1357 162C1374 167 1390 174 1404 182C1419 190 1434 199 1445 211C1456 222 1469 237 1470 250Z"/><path d="M1542 250C1543 268 1531 291 1515 306C1500 322 1471 333 1450 343C1428 354 1409 363 1387 372C1365 380 1343 391 1319 394C1295 398 1266 396 1242 393C1217 389 1194 382 1171 374C1148 367 1123 359 1104 347C1085 335 1068 319 1058 303C1048 287 1048 268 1047 250C1045 232 1045 213 1051 195C1058 177 1066 156 1085 143C1103 129 1135 120 1162 115C1188 111 1218 116 1244 116C1270 117 1291 117 1315 119C1339 121 1364 122 1387 128C1410 134 1433 144 1453 155C1473 166 1494 179 1509 195C1524 211 1541 232 1542 250Z"/><path d="M1618 250C1618 274 1601 302 1581 322C1561 342 1525 355 1497 370C1470 384 1446 396 1418 407C1391 418 1362 432 1330 437C1299 441 1262 439 1230 435C1198 430 1168 420 1139 410C1109 401 1077 391 1052 375C1028 360 1005 339 993 319C981 298 979 273 978 250C976 227 975 202 983 179C992 156 1004 128 1029 112C1053 95 1094 83 1129 78C1163 73 1201 79 1234 79C1267 80 1294 79 1325 81C1356 84 1390 84 1420 91C1450 99 1479 111 1506 126C1532 140 1559 158 1578 179C1597 200 1617 226 1618 250Z"/><path d="M1697 250C1697 279 1674 314 1649 338C1624 363 1580 379 1547 397C1514 415 1486 431 1451 445C1417 459 1381 476 1342 482C1304 488 1258 484 1219 479C1179 473 1142 461 1105 449C1068 436 1028 424 998 405C968 386 940 361 924 335C908 309 906 279 904 250C902 221 901 191 912 162C923 134 939 100 970 79C1000 59 1052 46 1095 39C1137 33 1183 40 1224 40C1264 41 1298 39 1336 41C1375 43 1417 43 1454 52C1492 61 1529 77 1562 95C1595 113 1629 135 1651 161C1674 187 1697 221 1697 250Z"/><path d="M1780 250C1779 285 1750 326 1720 355C1690 384 1638 404 1599 426C1560 447 1527 467 1486 484C1446 502 1402 523 1355 530C1308 536 1254 532 1206 525C1158 519 1114 504 1070 489C1025 474 977 460 940 437C904 414 870 384 851 352C832 321 829 285 826 250C823 215 822 178 836 144C849 110 871 69 908 45C946 21 1009 7 1059 -1C1110 -8 1165 0 1213 0C1261 0 1301 -3 1348 -2C1394 0 1446 -1 1491 10C1537 20 1583 39 1622 62C1662 84 1702 111 1729 143C1755 174 1782 215 1780 250Z"/><path d="M1867 250C1864 292 1829 338 1793 373C1758 407 1698 430 1653 455C1608 481 1570 505 1523 526C1476 547 1424 572 1369 580C1314 588 1249 582 1193 574C1137 566 1085 549 1032 531C980 514 923 497 880 470C836 444 796 408 774 371C751 334 747 291 744 250C741 209 739 165 756 125C772 85 800 38 844 10C889 -17 964 -33 1023 -42C1083 -50 1146 -41 1202 -42C1258 -42 1305 -48 1360 -47C1415 -46 1477 -48 1531 -35C1586 -23 1640 -0 1687 26C1733 53 1780 86 1810 123C1840 161 1870 208 1867 250Z"/><path d="M307 760C306 763 303 767 300 770C298 772 294 775 291 777C288 780 285 782 281 784C278 786 273 788 268 789C263 789 257 788 253 787C248 787 243 786 239 784C234 783 229 782 225 779C221 777 217 774 215 771C213 767 213 764 213 760C213 756 214 753 216 749C218 746 222 743 226 741C230 739 236 739 240 738C245 737 249 737 253 736C258 735 262 733 267 732C272 732 279 732 284 733C289 734 293 737 297 740C300 742 303 746 305 749C307 753 308 757 307 760Z"/><path d="M357 760C356 767 349 774 344 780C338 786 331 790 325 796C318 801 313 807 305 811C297 815 286 819 276 820C266 821 255 819 245 817C235 816 225 813 215 811C206 808 194 806 186 801C178 796 170 789 166 782C162 776 161 767 162 760C162 753 164 745 168 738C173 732 181 725 189 721C198 717 210 716 219 714C229 712 237 711 246 709C256 707 265 703 276 702C286 701 300 701 310 703C320 706 329 712 337 718C344 723 350 731 354 738C357 745 359 753 357 760Z"/><path d="M411 760C408 771 398 782 390 791C382 800 371 808 361 816C351 824 343 834 330 840C318 846 301 852 285 853C269 855 252 851 236 849C220 847 206 843 190 839C175 835 156 831 144 824C131 817 119 806 113 795C107 784 106 772 107 760C108 748 110 736 118 726C125 716 138 706 151 700C164 694 183 692 197 689C212 685 224 683 238 680C253 676 268 669 285 668C301 666 322 667 338 671C354 676 369 685 380 694C391 703 401 714 406 725C411 736 414 749 411 760Z"/><path d="M468 760C464 775 450 790 439 803C428 816 414 826 400 837C387 849 375 862 358 871C340 880 316 887 295 889C273 891 249 886 227 883C205 880 185 876 163 870C142 865 116 860 98 849C80 839 64 824 56 809C47 794 47 776 48 760C50 744 54 727 64 713C75 700 92 686 110 678C129 669 154 667 174 662C193 657 210 653 230 648C250 643 272 633 295 631C318 629 347 630 369 636C391 642 411 656 426 669C441 681 454 697 461 712C468 727 471 745 468 760Z"/><path d="M528 760C523 780 506 799 491 815C477 832 460 846 443 860C425 875 410 893 387 904C364 915 333 925 305 927C277 930 246 923 217 919C189 915 162 911 134 903C106 896 72 890 48 876C25 863 5 843 -6 823C-16 804 -17 781 -14 760C-12 739 -6 717 8 700C22 682 45 665 68 654C91 643 123 640 148 633C174 626 195 621 221 614C247 607 275 593 306 591C336 588 374 590 402 598C430 607 455 625 475 642C494 658 510 678 519 698C528 718 532 740 528 760Z"/><path d="M591 760C585 784 564 808 547 828C530 849 509 867 488 885C466 904 447 926 418 940C390 954 351 965 316 968C281 971 242 963 207 958C171 953 138 948 102 939C67 930 24 922 -5 906C-34 889 -59 863 -71 839C-84 815 -83 786 -80 760C-77 734 -68 707 -51 686C-33 664 -5 644 24 630C53 616 91 612 122 603C153 594 178 586 211 577C243 567 279 550 317 547C355 544 403 547 438 558C473 569 503 592 527 613C550 634 570 659 580 684C591 708 596 736 591 760Z"/><path d="M657 760C650 789 626 817 605 842C585 868 561 889 535 912C510 934 486 961 452 978C417 994 370 1007 327 1010C285 1014 239 1004 196 999C153 993 112 988 69 977C26 967 -27 957 -62 937C-96 917 -126 885 -141 856C-155 826 -154 791 -149 760C-144 729 -133 697 -112 671C-91 645 -57 621 -22 605C12 588 56 582 93 571C130 559 160 548 200 536C239 524 284 503 330 500C376 496 434 501 476 515C517 529 553 558 581 583C609 609 632 639 644 668C657 698 663 731 657 760Z"/><path d="M726 760C719 794 691 827 667 857C644 887 616 913 586 940C556 966 528 999 487 1018C446 1037 390 1051 339 1055C289 1059 235 1048 184 1042C133 1036 84 1030 33 1018C-18 1006 -81 994 -122 970C-163 946 -197 908 -214 873C-230 838 -227 796 -221 760C-215 724 -201 686 -176 656C-151 626 -110 598 -71 578C-31 558 20 551 63 537C107 522 141 507 188 493C235 478 289 453 344 449C398 445 466 452 516 470C565 487 605 522 638 552C671 582 697 618 712 652C726 687 734 726 726 760Z"/><path d="M1017 880C1018 883 1019 886 1017 889C1016 891 1012 894 1008 896C1005 897 1001 898 997 899C993 900 990 901 986 902C982 902 978 902 974 901C971 900 967 899 964 898C961 897 957 896 954 894C951 893 948 890 947 888C945 886 946 883 946 880C946 877 947 875 948 872C949 870 949 867 951 864C954 862 957 860 961 859C965 857 970 857 974 858C978 858 982 858 986 859C989 860 993 861 996 862C999 863 1001 865 1003 867C1006 869 1008 871 1010 873C1013 875 1016 877 1017 880Z"/><path d="M1059 880C1061 886 1062 893 1058 899C1055 904 1046 909 1039 912C1032 916 1023 918 1016 920C1008 922 1000 925 992 925C984 926 976 925 968 924C960 923 954 921 946 918C939 916 931 914 925 910C919 906 913 902 910 897C907 892 908 885 908 880C908 875 910 869 912 864C914 858 915 852 920 847C924 842 932 837 940 835C948 832 959 833 967 833C976 833 984 835 992 836C999 838 1007 840 1013 842C1019 845 1025 849 1030 853C1035 856 1040 860 1045 865C1050 869 1057 874 1059 880Z"/><path d="M1106 880C1109 889 1109 901 1103 909C1098 918 1083 925 1072 931C1061 936 1048 940 1036 943C1023 947 1012 950 999 951C987 952 973 952 961 950C949 948 938 944 927 940C916 937 903 933 894 928C884 922 874 914 870 906C865 898 866 889 866 880C867 871 869 863 872 854C875 845 877 835 884 827C892 820 905 812 917 809C930 805 947 806 960 807C974 807 986 809 998 812C1010 814 1022 817 1032 821C1042 825 1050 831 1059 837C1067 842 1076 848 1083 855C1091 863 1102 871 1106 880Z"/><path d="M1157 880C1161 893 1160 909 1152 921C1144 933 1124 943 1108 950C1092 958 1074 963 1057 968C1040 973 1024 978 1007 980C990 981 971 980 954 978C937 975 921 970 905 965C890 960 872 955 859 947C846 939 832 928 826 917C820 906 821 892 821 880C821 868 824 856 828 844C832 831 835 816 846 806C856 795 875 785 893 781C911 776 934 778 953 778C971 779 989 782 1005 785C1022 788 1038 792 1053 797C1067 803 1079 811 1091 819C1103 827 1115 835 1126 845C1137 855 1153 867 1157 880Z"/><path d="M1213 880C1218 897 1216 918 1204 934C1193 949 1166 961 1146 971C1125 981 1102 988 1080 994C1059 1001 1037 1008 1015 1010C993 1013 968 1011 946 1008C923 1005 903 998 882 991C861 985 838 978 821 967C804 957 787 943 779 928C770 914 772 896 772 880C772 864 774 848 780 832C785 816 789 796 803 783C818 769 843 756 866 751C890 745 920 747 945 748C969 749 991 753 1013 757C1035 761 1056 765 1075 772C1094 779 1110 789 1127 799C1143 810 1159 820 1174 834C1188 847 1208 863 1213 880Z"/></g>
+        <g class="river-flow">
+          <path class="river-bed" d="M-60 170C220 90 380 400 620 430S790 520 830 600"/><path class="river-bed" d="M1680 60C1420 150 1230 410 1010 470S870 560 830 600"/><path class="river-bed" d="M830 600C790 710 980 790 900 910S1010 1010 1120 1060"/>
+          <path class="river-run" d="M-60 170C220 90 380 400 620 430S790 520 830 600"/><path class="river-run" d="M1680 60C1420 150 1230 410 1010 470S870 560 830 600"/><path class="river-run" d="M830 600C790 710 980 790 900 910S1010 1010 1120 1060"/>
+        </g>
+      </svg>
+    </div>
+        <div class="intro-splash" id="intro-splash" aria-hidden="true">
+      <div class="intro-lockup">
+        <svg class="intro-emblem" viewBox="0 0 64 64" role="presentation">
+          <rect class="logo-spine" x="11" y="10" width="8" height="44" rx="4" />
+          <path class="logo-wave logo-wave-1" d="M26 15q5-6 10 0t10 0 10 0" />
+          <path class="logo-wave logo-wave-2" d="M26 32q5-6 10 0t10 0" />
+          <path class="logo-wave logo-wave-3" d="M26 49q5-6 10 0t10 0 10 0" />
+        </svg>
+        <div class="intro-wordmark">ERODE</div>
+        <p class="intro-tagline">Trails, Treasures &amp; Timeless Experiences</p>
+      </div>
+    </div>
+    <div class="info-bar">
+      <div class="info-bar-inner">
+        <div class="info-details">
+          <span class="info-location"
+            ><span data-icon="pin"></span
+            ><span class="topbar-location-text">Erode, Tamil Nadu</span></span
+          ><span class="info-divider"></span
+          ><span class="info-weather"
+            ><span data-icon="sun"></span
+            ><span class="topbar-weather-text">27°C · Pleasant Weather</span></span
+          >
+        </div>
+        <div class="info-social">
+          <span class="info-motto">Explore · Experience · Remember</span
+          ><span class="social-icons" aria-hidden="true"
+            ><i class="fa-brands fa-youtube"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook-f"></i></span>
+        </div>
+      </div>
+    </div>
+    <header class="site-header" id="site-header">
+      <div class="container nav-row">
+        <a class="brand" href="#home" aria-label="Erode home"
+          ><svg class="brand-logo" viewBox="0 0 64 64" aria-hidden="true">
+          <rect class="brand-logo-bg" width="64" height="64" rx="16" />
+          <rect class="brand-logo-spine" x="11" y="10" width="8" height="44" rx="4" />
+          <path d="M26 15q5-6 10 0t10 0 10 0" />
+          <path d="M26 32q5-6 10 0t10 0" />
+          <path d="M26 49q5-6 10 0t10 0 10 0" /></svg
+        ><span><strong>ERODE</strong><small>EXPLORER</small></span></a
+        >
+        <nav class="nav-links" aria-label="Main navigation">
+          <a class="active" href="#home">Home</a><a href="#destinations">Destinations</a
+          ><a href="#travel-guide">Travel Guide</a><a href="#itineraries">Itineraries</a
+          ><a href="#about">About</a>
+        </nav>
+        <div class="nav-actions">
+          <label class="language-picker"
+            ><span class="sr-only" id="language-label">Language</span
+            ><select id="language-select" aria-labelledby="language-label">
+              <option value="en">English</option>
+              <option value="ta">தமிழ்</option>
+              <option value="ml">മലയാളം</option>
+              <option value="hi">हिन्दी</option>
+            </select></label
+          ><button
+            class="theme-toggle"
+            id="theme-toggle"
+            type="button"
+            aria-label="Switch to dark mode"
+            title="Switch to dark mode"
+            aria-pressed="false"
+          >
+            <span data-icon="moon"></span></button
+          ><button class="btn" id="favourites-nav" aria-label="My Favourites" title="My Favourites">
+            <span data-icon="heart"></span><span>My Favourites</span
+            ><span id="fav-count" hidden>0</span></button
+          ><button
+            class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Open navigation"
+            aria-expanded="false"
+          >
+            <span data-icon="menu"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="destination-page" class="destination-page" hidden></section>
+      <section class="hero" id="home">
+        <img
+          class="hero-image"
+          id="hero-image"
+          alt="Bhavanisagar Dam surrounded by turquoise water and green countryside in Erode"
+          fetchpriority="high"
+        />
+        <div class="container hero-content">
+          <div class="eyebrow"><span data-icon="pin"></span> A quiet escape in Tamil Nadu</div>
+          <h1>
+            <span class="hero-brand-label">ERODE EXPLORER</span
+            ><span class="hero-title-text"
+              ><span class="hero-title-lead">Discover the beauty</span
+              ><br class="hero-title-break" /><span class="hero-title-line-two"
+                ><span class="hero-title-connector">of </span
+                ><em class="hero-title-place">Erode.</em></span
+              ></span
+            >
+          </h1>
+          <p class="hero-description">
+            From historic temples to scenic landscapes, Erode is a perfect blend of culture, nature
+            and tradition.
+          </p>
+          <a class="btn hero-cta" href="#destinations"
+            >EXPLORE ERODE <span data-icon="arrow"></span
+          ></a>
+          <form class="search-form" role="search" id="search-form">
+            <span data-icon="search"></span
+            ><input
+              id="search-input"
+              aria-label="Search destinations"
+              placeholder="Search places, cuisine, or experiences…"
+              autocomplete="off"
+            /><button class="btn" type="submit">Search <span data-icon="arrow"></span></button>
+          </form>
+        </div>
+        <svg class="hero-waves" viewBox="0 0 2880 120" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <path class="wave wave-3" d="M0 54c120 -34 240 -34 360 0c120 34 240 34 360 0c120 -34 240 -34 360 0c120 34 240 34 360 0c120 -34 240 -34 360 0c120 34 240 34 360 0c120 -34 240 -34 360 0c120 34 240 34 360 0V120H0Z" />
+          <path class="wave wave-2" d="M0 74c120 28 240 28 360 0c120 -28 240 -28 360 0c120 28 240 28 360 0c120 -28 240 -28 360 0c120 28 240 28 360 0c120 -28 240 -28 360 0c120 28 240 28 360 0c120 -28 240 -28 360 0V120H0Z" />
+          <path class="wave wave-1" d="M0 96c120 -22 240 -22 360 0c120 22 240 22 360 0c120 -22 240 -22 360 0c120 22 240 22 360 0c120 -22 240 -22 360 0c120 22 240 22 360 0c120 -22 240 -22 360 0c120 22 240 22 360 0V120H0Z" />
+        </svg>
+        <div class="container hero-foot">
+          <span class="location-label"><span data-icon="pin"></span> Bhavanisagar Dam, Erode</span>
+        </div>
+      </section>
+      <section class="container intro">
+        <div class="intro-copy" data-reveal>
+          <div class="eyebrow">Vanakkam, welcome to Erode</div>
+          <h2>A place for every kind of explorer.</h2>
+          <p>
+            From misty forest trails and peaceful rivers to ancient temples and living craft
+            traditions, discover a side of Tamil Nadu that stays with you.
+          </p>
+        </div>
+        <div class="stats" data-reveal>
+          <div class="stat"><strong data-count="20">20</strong><span>Places to discover</span></div>
+          <div class="stat"><strong data-count="5">5</strong><span>Ways to explore</span></div>
+          <div class="stat"><strong>∞</strong><span>Memories to make</span></div>
+        </div>
+      </section>
+      <section class="container destinations" id="destinations">
+        <div class="section-head" data-reveal>
+          <div>
+            <div class="eyebrow">Find your kind of escape</div>
+            <h2 id="destinations-heading">Explore Erode</h2>
+            <p id="destinations-subtitle">
+              Beautiful places. Local stories. Unforgettable moments.
+            </p>
+          </div>
+          <button class="text-link" id="view-all">
+            View all destinations <span data-icon="arrow"></span>
+          </button>
+        </div>
+        <div
+          class="filters"
+          id="filters"
+          role="group"
+          aria-label="Filter by destination category"
+        ></div>
+        <div class="destination-grid" id="destination-grid" aria-live="polite"></div>
+        <div class="load-more">
+          <button class="btn btn-outline" id="load-more">
+            Discover more places <span data-icon="arrow"></span>
+          </button>
+        </div>
+      </section>
+      <section class="guide" id="travel-guide">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <div>
+              <div class="eyebrow">A little planning, a lot of exploring</div>
+              <h2>Your Erode travel guide</h2>
+              <p>Thoughtful essentials for a memorable, responsible visit.</p>
+            </div>
+            <span data-icon="compass"></span>
+          </div>
+          <div class="guide-grid">
+            <article class="guide-item" data-reveal>
+              <span data-icon="sun"></span>
+              <h3>When to visit</h3>
+              <p>
+                November to February offers generally cooler weather. Winter is rewarding for
+                birdwatching at Vellode. Water levels and access at dams vary by season.
+              </p>
+            </article>
+            <article class="guide-item" data-reveal>
+              <span data-icon="train"></span>
+              <h3>Getting around</h3>
+              <p>
+                Erode Junction is well connected by rail. Local buses serve major towns; a taxi is
+                useful for rural destinations. Coimbatore is the nearest major airport.
+              </p>
+            </article>
+            <article class="guide-item" data-reveal>
+              <span data-icon="leaf"></span>
+              <h3>Travel gently</h3>
+              <p>
+                Carry water, leave no litter, and keep your distance from wildlife. Forest visits
+                need authorised access. Never enter dam waters during releases.
+              </p>
+            </article>
+            <article class="guide-item" data-reveal>
+              <span data-icon="bag"></span>
+              <h3>A taste of Kongu</h3>
+              <p>
+                Try local Kongu Nadu cooking and browse Bhavani’s colourful handwoven jamakkalam
+                carpets. Ask before photographing people or entering weaving workshops.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="container itineraries" id="itineraries">
+        <div class="section-head" data-reveal>
+          <div>
+            <div class="eyebrow">Make a day of it</div>
+            <h2>Small journeys, lasting memories</h2>
+            <p>Suggested stops, at your own pace. Confirm access before setting off.</p>
+          </div>
+        </div>
+        <div class="itinerary-grid">
+          <article class="itinerary" data-reveal>
+            <div class="eyebrow">One day · Nature</div>
+            <h3>Rivers &amp; reservoirs</h3>
+            <ol>
+              <li>Morning at Kodiveri Dam</li>
+              <li>Reservoir views at Bhavanisagar</li>
+              <li>A peaceful stop at Bannari Amman</li>
+            </ol>
+            <button class="text-link itinerary-link" data-stops="kodiveri,bhavanisagar,bannari">
+              Explore the stops <span data-icon="arrow"></span>
+            </button>
+          </article>
+          <article class="itinerary" data-reveal>
+            <div class="eyebrow">One day · Culture</div>
+            <h3>The heart of Kongu</h3>
+            <ol>
+              <li>Bhavani Sangameshwarar Temple</li>
+              <li>Bhavani’s jamakkalam heritage</li>
+              <li>Kalingarayan Anicut by the river</li>
+            </ol>
+            <button
+              class="text-link itinerary-link"
+              data-stops="sangameshwarar,jamakkalam,kalingarayan"
+            >
+              Explore the stops <span data-icon="arrow"></span>
+            </button>
+          </article>
+          <article class="itinerary" data-reveal>
+            <div class="eyebrow">One day · Slow travel</div>
+            <h3>Birdsong &amp; hilltop views</h3>
+            <ol>
+              <li>Early birdwatching at Vellode</li>
+              <li>Visit Chennimalai Murugan Temple</li>
+              <li>Sunset views from Thindal hill</li>
+            </ol>
+            <button class="text-link itinerary-link" data-stops="vellode,chennimalai,thindal">
+              Explore the stops <span data-icon="arrow"></span>
+            </button>
+          </article>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container about-inner">
+          <div data-reveal>
+            <div class="eyebrow">Rooted in Erode. Made for explorers.</div>
+            <h2>More than a destination.<br />A story worth discovering.</h2>
+          </div>
+          <p data-reveal>
+            Erode Explore celebrates the landscapes, sacred places and living heritage of Erode
+            district. Created as an MCA college project and developer portfolio, it brings together
+            thoughtful travel ideas and information from official tourism sources. This is an
+            independent project, not an official tourism or booking service.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <a class="brand" href="#home"
+            ><svg class="brand-logo" viewBox="0 0 64 64" aria-hidden="true">
+          <rect class="brand-logo-bg" width="64" height="64" rx="16" />
+          <rect class="brand-logo-spine" x="11" y="10" width="8" height="44" rx="4" />
+          <path d="M26 15q5-6 10 0t10 0 10 0" />
+          <path d="M26 32q5-6 10 0t10 0" />
+          <path d="M26 49q5-6 10 0t10 0 10 0" /></svg
+        ><span
+              ><strong>ERODE</strong
+              ><small>Trails, Treasures &amp; Timeless Experiences</small></span
+            ></a
+          >
+          <div class="footer-links">
+            <a href="#destinations">Destinations</a><a href="#travel-guide">Travel Guide</a
+            ><a href="#about">Our story</a
+            ><a
+              href="https://erode.nic.in/tourism/places-of-interest/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Official tourism <span data-icon="external"></span
+            ></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 Erode Explore. An independent student project.</span
+          ><span>Made with care for Erode, Tamil Nadu <span data-icon="leaf"></span></span>
+        </div>
+      </div>
+    </footer>
+    <dialog id="destination-dialog" aria-labelledby="dialog-title">
+      <button class="modal-close" aria-label="Close destination details">
+        <span data-icon="close"></span>
+      </button>
+      <div id="dialog-content"></div>
+    </dialog>
+    <div class="toast" id="toast" role="status" hidden></div>
+  </body>
+</html>
